@@ -32,7 +32,7 @@ class pyHTTP(BaseHTTPRequestHandler):
                 self.wfile.write(f.read())
                 f.close()
         else:
-			self.send_error(404,'File Not Found: %s' % file_path)
+            self.send_error(404,'File Not Found: %s' % file_path)
 
 def run():
     server      = HTTPServer(('', PORT_NUMBER), pyHTTP)
