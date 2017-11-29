@@ -1,0 +1,132 @@
+<header>
+  <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <link
+      rel='stylesheet' type='text/css'
+      href='https://fonts.googleapis.com/css?family=Lobster'>
+  <link
+      rel='stylesheet' type='text/css'
+      href='https://fonts.googleapis.com/css?family=Merienda'>
+  <link
+      rel='stylesheet' type='text/css'
+      href='https://fonts.googleapis.com/css?family=Raleway'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</header>
+
+<div class="pageOne" id="p1">
+  <ul class="nav nav-pills">
+    <li>
+      <a href="#p1">Nguyen H. Nam</a>
+    </li>
+    <li class="pull-right">
+      <a href="#p4">Contact Me</a>
+      </li>
+    <li class="pull-right">
+      <a href="#p3">Portfolio</a>
+    </li>
+    <li class="pull-right">
+      <a href="#p2">About Me</a>
+    </li>
+  </ul>
+
+  <div class="block text-center">
+  <h1>Nguyen H. Nam</h1>
+  <h3>Always do what you are afraid to do.</h3>
+  </div>
+  <div class="btnList text-center">
+    <a class="btn btn-default" href="https://twitter.com/LaoHac20067" target="blank"><i class="fa fa-twitter fa-lg" id="twitter-icon" aria-hidden="true"></i>Twitter</a>
+    <a class="btn btn-default" href="https://www.linkedin.com/in/nam-nguyen-hoai-9a6813a2" target="blank"><i class="fa fa-linkedin fa-lg" id="linkedin-icon" aria-hidden="true"></i>Linkedin</a>
+    <a class="btn btn-default" href="https://github.com/BornToWin" target="blank"><i class="fa fa-github fa-lg" id="github-icon" aria-hidden="true"></i>GitHub</a>
+    <a class="btn btn-default" href="https://www.facebook.com/nam.nguyenhoai.79" target="blank"><i class="fa fa-facebook fa-lg" id="facebook-icon" aria-hidden="true"></i>Facebook</a>
+  </div>
+</div>
+
+<div class="pageTwo" id="p2">
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <h1 style="color:black">Nguyen H. Nam</h1>
+      <p style="color:black"> I am currently a third year student in the engineering school <a href="http://www.telecom-bretagne.eu" target="_blank">TELECOM Bretagne</a>. I love coding, traveling and learning languages. I am a self-taught developer, I am familiar with Python, Java, HTML, CSS, Linux OS and other programming languages.
+      </p>
+      <p style="color:black">ShangLa is my future open-source project. The website will be coming soon!
+      </p>
+    </div>
+    <div class="col-md-6">
+       <img class="portrait" src="http://i.imgur.com/9upWRgs.jpg?1">
+    </div>
+  </div>
+</div>
+
+<!--
+<div class="pageThree" id="p3">
+  <div class="row">
+    <div class="col-lg-2">
+      <img src="http://flickholdr.com/640/480" alt="placeholder image" />
+    </div>
+    <div class="col-lg-2">
+      <img src="http://flickholdr.com/640/480" alt="placeholder image" />
+    </div>
+  </div>
+</div>
+!-->
+
+<div class="pageFour" id="p4">
+  <form style="margin-left:15px;margin-right:15px" id="contact-form" action="#" method="post" role="form">
+    <div class="message"></div>
+    <div class="controls">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="form_name">Firstname *</label>
+            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required" data-error="Firstname is required.">
+            <div class="help-block-with-errors"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="form_lastname">Lastname *</label>
+            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Lastname is required.">
+            <div class="help-block-with-errors"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="form_email">Email *</label>
+            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+            <div class="help-block-with-errors"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="form_phone">Phone</label>
+            <input id="form_phone" type="phone" name="phone" class="form-control" placeholder="Please enter your phone number.">
+            <div class="help-block-with-errors"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="form_message">Message *</label>
+            <textarea id="form_message" name="phone" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave me a message."></textarea>
+            <div class="help-block-with-errors"></div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <input type="submit" class="btn btn-success btn-send" value="Send message">
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p style="font-family: Raleway, sans-serif;font-size:.8em" ><strong>*</strong> These fields are required. Contact form template <a href="http://bootstrapious.com" target="_blank">Bootstrapious</a>.</p>
+
+            </template>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </form>
+</div>
