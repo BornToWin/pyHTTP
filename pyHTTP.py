@@ -10,7 +10,7 @@ PORT_NUMBER = 8000
 mime_dict = {'.html': 'text/html', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.js': 'application/javascript',
                 '.css': 'text/css','.pdf': 'application/pdf', '.bmp': 'image/bmp', '.csv': 'text/csv', '.gif': 'image/gif',
                 '.json': 'application/json', '.latex': 'application/x-latex', '.doc': 'application/msword',
-                '.png': 'image/x-png', '.xml': 'application/rss+xml'}
+                '.png': 'image/png', '.xml': 'application/rss+xml'}
 
 class pyHTTP(BaseHTTPRequestHandler):
     def do_GET(self):
