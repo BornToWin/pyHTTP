@@ -30,4 +30,4 @@ Open a terminal in the same directory of the __pyHTTP.py__ file, and type
 $python pyHTTP.py
 Serving HTTP server on port 8000
 ```
-Then open your browser and type http://localhost:8000, you should see all the files in the same directory as the python file. For the supported files type, refer to the MIME part.
+Then open your browser and type http://localhost:8000, the server will display the file index.html if any in the directory, to access to other files, for example style.css, type http://localhost:8000/style.css. For the supported files type, refer to the MIME part.
