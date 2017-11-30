@@ -24,6 +24,7 @@ For example, the MIME value "application/xml" is used for XML documents and spec
 | Microsoft Word | application/msword | .doc |
 | RSS - Really Simple Syndication | application/rss+xml | .rss or .xml |
 | Portable Network Graphics (PNG) | image/png | .png |
+| Python code | text/x-python | .py |
 ## How to run
 Open a terminal in the same directory of the __pyHTTP.py__ file, and type
 ```
