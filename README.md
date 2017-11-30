@@ -32,3 +32,4 @@ $python pyHTTP.py
 Serving HTTP server on port 8000
 ```
 Then open your browser and type http://localhost:8000, the server will display the file index.html if any in the same directory as the python file, to access to other files, for example style.css, type http://localhost:8000/style.css. For the supported files type, refer to the MIME part.
+In the case where there is no index.html file in the directory, the browser will display a list of files or sub-directories in the current directory. The implementation of list directory part was modified from the original one [SimpleHTTPServer.py](https://github.com/enthought/Python-2.7.3/blob/master/Lib/SimpleHTTPServer.py).
